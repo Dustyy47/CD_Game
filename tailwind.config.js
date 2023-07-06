@@ -8,11 +8,18 @@ module.exports = {
     colors: {
       black: "#171717",
       greyLight: "#2C2C2C",
-      bg: "#222222",
+      grey: "#222222",
       lime: "#CCFF00",
       yellow: "#FFD600",
     },
-    extend: {},
+    borderRadius: {
+      common: "0.3125rem",
+    },
+    extend: {
+      height: {
+        15: "3.75rem",
+      },
+    },
   },
   plugins: [],
 };

@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Product sans';
-  src: url('./fonts/PS_light.ttf') format('truetype');
+  src: url('./fonts/PS_regular.ttf') format('truetype');
   font-weight: 400;
 }
 @tailwind base;
@@ -15,10 +15,10 @@
 
 body {
   margin: 0;
+  @apply bg-grey;
 }
 
 * {
-  font-size: 64px;
   font-weight: 400;
   @apply font-main;
 }
