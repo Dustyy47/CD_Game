@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CD_Game/static/css/main.37447d78.css",
+    "main.js": "/CD_Game/static/js/main.1bb49dc3.js",
+    "static/media/PS_regular.ttf": "/CD_Game/static/media/PS_regular.2765c69613690b1b9c03.ttf",
+    "static/media/PS_bold.ttf": "/CD_Game/static/media/PS_bold.153c4f86d79ce54c810c.ttf",
+    "index.html": "/CD_Game/index.html",
+    "main.37447d78.css.map": "/CD_Game/static/css/main.37447d78.css.map",
+    "main.1bb49dc3.js.map": "/CD_Game/static/js/main.1bb49dc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37447d78.css",
+    "static/js/main.1bb49dc3.js"
+  ]
+}
