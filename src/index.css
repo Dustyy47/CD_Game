@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Product sans';
+  src: url('./fonts/PS_bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Product sans';
+  src: url('./fonts/PS_regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  @apply bg-grey;
+}
+
+* {
+  font-weight: 400;
+  @apply font-main;
+}
