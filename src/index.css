@@ -20,5 +20,19 @@ body {
 
 * {
   font-weight: 400;
-  @apply font-main;
+  @apply font-main duration-300;
+}
+
+@layer components {
+  .upperFont {
+    @apply uppercase font-bold text-[36px];
+  }
+
+  .boldFont {
+    @apply font-bold text-[28px];
+  }
+
+  .regularFont {
+    @apply font-medium text-[16px];
+  }
 }
