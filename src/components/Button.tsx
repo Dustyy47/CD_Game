@@ -13,14 +13,19 @@ export function Button({
   styleType,
   ...props
 }: ButtonProps) {
-  const baseStyles = 'rounded-common text-black h-[3.75rem] w-full'
   const typeStyle = {
     lime: 'bg-lime',
     yellow: 'bg-yellow'
   }[styleType]
 
   return (
-    <button {...props} className={classNames(baseStyles, typeStyle)}>
+    <button
+      {...props}
+      className={classNames(
+        'rounded-common text-black h-[3.75rem] w-full ',
+        typeStyle
+      )}
+    >
       {children}
     </button>
   )
