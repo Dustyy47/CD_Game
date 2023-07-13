@@ -1,7 +1,6 @@
-<h1>CDG Match-two game</h1>
-<hr><p>The second project is written in React.js, during the practice at Crimea Digital</p>
+<h1>:joystick: CDG Match-two game</h1>
+<p>The second project is written in React.js, during the practice at Crimea Digital</p>
 <p>Live Demo: https://dustyy47.github.io/CD_Game/</p><h2>General Information</h2>
-<hr>
 The page consists of a board with tiles (4x4 by default).
 every 2 tiles have the same color (it could be an image, doesn't matter);
 <p>each tile is closed, so the user cannot see the color (image).</p>
