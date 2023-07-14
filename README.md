@@ -1,4 +1,4 @@
-<h1>:joystick: CDG Match-two game</h1>
+<h1>:joystick: CDG Academy Match-two game</h1>
 <p>The second project is written in React.js, during the practice at Crimea Digital</p>
 <p>Live Demo: https://dustyy47.github.io/CD_Game/</p><h2>General Information</h2>
 The page consists of a board with tiles (4x4 by default).
