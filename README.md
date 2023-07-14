@@ -8,21 +8,21 @@ every 2 tiles have the same color (it could be an image, doesn't matter);
 <p>In each round, the user selects 2 tiles of the same color so that they disappear until either all the cells are selected and the player moves on to the next round, or until the timer runs out. With each round, the time on the timer decreases by 5 seconds until it reaches the minimum number. After the end of the game, the player is shown his result, namely the number of rounds and the total time of the game, as well as his record is shown, a new record is set when the player either exceeded the previous</p>
 <h2>How To Use</h2>
 
-1. First make sure that you have Node installed.js and npm.
-2. Clone the repository using the git
+First make sure that you have Node installed.js and npm.
+Clone the repository using the git
    
    ```git
    git clone https://github.com/Dustyy47/CD_Game.git
    ```
-4. Navigate to the project folder using the cd your-repository command
-5. Install the dependencies using the npm install command
+Navigate to the project folder using the cd your-repository command
+Install the dependencies using the npm install command
   
    ```javascript
    npm install
    ```
-6. Launch the application using the npm start command
+Launch the application using the npm start command
 
    ```javascript
    npm start
    ```
-7. Open the browser and go to http://localhost:3000 to see the app in action.
+Open the browser and go to http://localhost:3000 to see the app in action.
